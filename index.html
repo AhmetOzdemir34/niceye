@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vistream</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <nav class="mx-auto" style="padding: 1.5rem 0; box-shadow: 3px 2px 15px 1px #eaeaeaf2;">
+            <div class="container">
+                <div class="flex flex-row flex-nowrap items-center" style="gap: 5rem;width:100%;height:100%;">
+                    <div>
+                        <img src="./src/Group 1478.svg" alt="no image">
+                    </div>
+                    <div>
+                        <ul style="color:#042164; font-weight: 600; font-size: 14px;">
+                            <li class="inline mx-1 cursor-pointer">HOME</li>
+                            <li class="inline mx-1 cursor-pointer">SESSIONS</li>
+                            <li class="inline mx-1 cursor-pointer">OVERVIEW</li>
+                            <li class="inline mx-1 cursor-pointer">SCHEDULE</li>
+                            <li class="inline mx-1 cursor-pointer">TEASER</li>
+                            <li class="inline mx-1 cursor-pointer">UPCOMING EVENTS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="bg-property mx-auto" style="width:100%;">
+            <div class="container">
+                <div class="flex flex-row flex-nowrap items-center" style="height: 721px;">
+                    <div style="width: 60%; padding:2rem;">
+                        <h3 style="font-size: 21px;">NEXT WEBINAR</h3>
+                        <p style="margin:0.5rem 0 0.5rem 0; font-size: 40px; color: #FFFFFF; font-style: italic;">EVENT NAME it amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <p style="font-size: 36px;margin:1rem 0 1rem 0; color: #232B76; font-weight: bold;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                        <p style="font-size: 30px;margin:1rem 0 1rem 0; color: #ffffff; font-weight: 200;">Wednesday, 25 February 2021</p>
+                        <div class="flex flex-row flex-nowrap items-center" style="margin-top: 4rem; color:#ffffffff; text-align: center;">
+                            <div style="padding-top: 0.6rem; background-color: #00000029; width: 85px; height: 94px; margin:.3rem;">
+                                <p style="font-size: 37px;">15</p>
+                                <p style="font-size: 19px;">Days</p>
+                            </div>
+                            <div style="padding-top: 0.6rem; background-color: #00000029; width: 85px; height: 94px; margin:.3rem;">
+                                <p style="font-size: 37px;">12</p>
+                                <p style="font-size: 19px;">Hours</p>
+                            </div>
+                            <div style="padding-top: 0.6rem; background-color: #00000029; width: 85px; height: 94px; margin:.3rem;">
+                                <p style="font-size: 37px;">49</p>
+                                <p style="font-size: 19px;">Minutes</p>
+                            </div>
+                            <div style="padding-top: 0.6rem; background-color: #00000029; width: 85px; height: 94px; margin:.3rem;">
+                                <p style="font-size: 37px;">32</p>
+                                <p style="font-size: 19px;">Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 40%; padding:2rem;">
+                        <div><img src="./src/Group 1669.svg" alt="no image" style="width:320px;height:50px;display: block;margin:auto;"></div>
+                        <div><img src="./src/Group 1670.svg" alt="no image" style="width:320px;height:50px;display: block;margin:auto;"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="mx-auto">
+            <div class="container">
+                <h2 class="text-center" style="font-size: 40px; margin-top:63px; color:#042164;">SPEAKERS</h2>
+                <div class="flex flex-row flex-nowrap justify-center" style="margin: 1rem 0;">
+                    <button id="button1" onclick="clickedButton1()" class="cursor-pointer" style="border-radius: 20px; padding:.6rem 1rem; margin:0 .7rem; color:#232B76; border-color: #232B76;">Wednesday, 25 February 2021</button>
+                    <button id="button2" onclick="clickedButton2()" class="cursor-pointer" style="border-radius: 20px; padding:.6rem 1rem; margin:0 .7rem; color:#ffffff; border-color: #232B76;background-color: #232B76;">Wednesday, 25 February 2021</button>
+                </div>
+                <div class="flex flex-row flex-wrap text-center items-center">
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div> 
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-1.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil nesciunt incidunt harum, provident iusto.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-2.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-3.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-9.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-4.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-5.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                    <div class="w-1-4 p-div">
+                        <img src="./src/Ellipse 17-6.png" alt="noimg" style="display: block; margin:auto; margin-bottom: .8rem;width:150px; height:150px; border-radius: 50%;">
+                        <h2 style="font-size: 21px; color:#042164;margin-bottom: .4rem;">Dr. Name Surname</h2>
+                        <p style="line-height:18px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
+                        <button style="color: #ffffff; background-color: #232B76; padding: .5rem; letter-spacing: 1px; border-radius: 16px; margin:1rem 0 2rem 0;">See Bio</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center mx-auto" style="background-color: #F7F8FB; padding:23px 0 109px 0;">
+            <div class="container">
+                <h2 style="font-size: 40px; color:#232B76; margin-bottom: 35px;">WHAT IS VISTREAM WEBINAR PORTAL</h2>
+                <div style="width:70%; margin:auto;font-size: 31px; color:#232B76; margin-bottom: 35px; line-height: 43px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</div>
+                <div style="border-top: 10px solid #042164; width: 436px; margin:auto; transform: matrix(-1, 0, 0, -1, 0, 0); height:0;"></div>
+            </div>
+        </section>
+
+        <section class="mx-auto">
+            <div class="container">
+                <div class="flex flex-nowrap flex-row justify-center" style="padding-top:124px; padding-bottom: 184px;">
+                    <div class="w-1-3 text-center flex flex-row flex-nowrap">
+                        <div>
+                            <img src="./src/001-certificate.svg" alt="no image" style="width: 58px; height:58px; margin-top: .5rem;">
+                        </div>
+                        <div class="relative" style="text-align: left; padding-top: 1.2rem; padding-left: 1.6rem;">
+                            <img src="./src/Ellipse 9.svg" alt="no image" style="z-index: -1; width: 74px; height:74px; position: absolute; top: 0; left:0;">
+                            <h3 style="font-size: 30px; margin-bottom: .3rem;">
+                                Certified Speakers
+                            </h3>
+                            <p style="font-size: 18px; line-height: 28px;">
+                                Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1-3 text-center flex flex-row flex-nowrap">
+                        <div>
+                            <img src="./src/002-group.svg" alt="no image" style="width: 58px; height:58px; margin-top: .5rem;">
+                        </div>
+                        <div class="relative" style="text-align: left; padding-top: 1.2rem; padding-left: 1.6rem;">
+                            <img src="./src/Ellipse 9.svg" alt="no image" style="z-index: -1; width: 74px; height:74px; position: absolute; top: 0; left:0;">
+                            <h3 style="font-size: 30px; margin-bottom: .3rem;">
+                                Connecting People
+                            </h3>
+                            <p style="font-size: 18px; line-height: 28px;">
+                                Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-1-3 text-center flex flex-row flex-nowrap">
+                        <div>
+                            <img src="./src/003-world.svg" alt="no image" style="width: 58px; height:58px; margin-top: .5rem;">
+                        </div>
+                        <div class="relative" style="text-align: left; padding-top: 1.2rem; padding-left: 1.6rem;">
+                            <img src="./src/Ellipse 9.svg" alt="no image" style="z-index: -1; width: 74px; height:74px; position: absolute; top: 0; left:0;">
+                            <h3 style="font-size: 30px; margin-bottom: .3rem;">
+                                Latest Updates
+                            </h3>
+                            <p style="font-size: 18px; line-height: 28px;">
+                                Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slayt kaldı! -->
+
+        <section class="mx-auto" style="background-color: #F7F8FB;">
+            <div class="container">
+                <div style="padding-top:78px;">
+                    <h2 style="font-size: 40px; color:#042164; margin-bottom: 2rem;text-align: center;">UPCOMING EVENTS</h2>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper root-swiper">
+                      <div class="swiper-slide">
+                        <div style="z-index: 10; margin-bottom: 3rem; border-radius: 10px;">
+                            <p style="text-align: center; border-radius: 10px 10px 0 0; font-size: 20px; padding: .75rem; background-color: #232B76;color: white;">Monday, 15 February 2020</p>
+                            <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem;">
+                                <p style="padding: 1rem;font-size: 18px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <hr class="mx-auto" style="border: 1px solid rgba(0,0,0,.1); width: 75%; display:block; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+                                <p style="margin: 1rem; font-size: 18px; color: #009FE3; cursor: pointer;">Speaker Name</p>
+                                <div class="flex flex-row flex-nowrap justify-center items-center" style="gap: 10px;">
+                                    <button style="color: white; background-color:#009FE3; box-shadow: 0px 0px 20px #009FE345; border: none; padding: .5rem;border-radius: 29px;">REGISTER</button>
+                                    <button style="color: white; background-color: #042164; box-shadow: 0px 0px 20px #1490DF60; border: none; padding: .5rem;border-radius: 29px;">ADD TO CALENDAR</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div style="z-index: 10; margin-bottom: 3rem; border-radius: 10px;">
+                            <p style="text-align: center; border-radius: 10px 10px 0 0; font-size: 20px; padding: .75rem; background-color: #232B76;color: white;">Monday, 15 February 2020</p>
+                            <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem;">
+                                <p style="padding: 1rem;font-size: 18px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <hr class="mx-auto" style="border: 1px solid rgba(0,0,0,.1); width: 75%; display:block; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+                                <p style="margin: 1rem; font-size: 18px; color: #009FE3; cursor: pointer;">Speaker Name</p>
+                                <div class="flex flex-row flex-nowrap justify-center items-center" style="gap: 10px;">
+                                    <button style="color: white; background-color:#009FE3; box-shadow: 0px 0px 20px #009FE345; border: none; padding: .5rem;border-radius: 29px;">REGISTER</button>
+                                    <button style="color: white; background-color: #042164; box-shadow: 0px 0px 20px #1490DF60; border: none; padding: .5rem;border-radius: 29px;">ADD TO CALENDAR</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div style="z-index: 10; margin-bottom: 3rem; border-radius: 10px;">
+                            <p style="text-align: center; border-radius: 10px 10px 0 0; font-size: 20px; padding: .75rem; background-color: #232B76;color: white;">Monday, 15 February 2020</p>
+                            <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem;">
+                                <p style="padding: 1rem;font-size: 18px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <hr class="mx-auto" style="border: 1px solid rgba(0,0,0,.1); width: 75%; display:block; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+                                <p style="margin: 1rem; font-size: 18px; color: #009FE3; cursor: pointer;">Speaker Name</p>
+                                <div class="flex flex-row flex-nowrap justify-center items-center" style="gap: 10px;">
+                                    <button style="color: white; background-color:#009FE3; box-shadow: 0px 0px 20px #009FE345; border: none; padding: .5rem;border-radius: 29px;">REGISTER</button>
+                                    <button style="color: white; background-color: #042164; box-shadow: 0px 0px 20px #1490DF60; border: none; padding: .5rem;border-radius: 29px;">ADD TO CALENDAR</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div style="z-index: 10; margin-bottom: 3rem; border-radius: 10px;">
+                            <p style="text-align: center; border-radius: 10px 10px 0 0; font-size: 20px; padding: .75rem; background-color: #232B76;color: white;">Monday, 15 February 2020</p>
+                            <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem;">
+                                <p style="padding: 1rem;font-size: 18px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <hr class="mx-auto" style="border: 1px solid rgba(0,0,0,.1); width: 75%; display:block; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+                                <p style="margin: 1rem; font-size: 18px; color: #009FE3; cursor: pointer;">Speaker Name</p>
+                                <div class="flex flex-row flex-nowrap justify-center items-center" style="gap: 10px;">
+                                    <button style="color: white; background-color:#009FE3; box-shadow: 0px 0px 20px #009FE345; border: none; padding: .5rem;border-radius: 29px;">REGISTER</button>
+                                    <button style="color: white; background-color: #042164; box-shadow: 0px 0px 20px #1490DF60; border: none; padding: .5rem;border-radius: 29px;">ADD TO CALENDAR</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div style="z-index: 10; margin-bottom: 3rem; border-radius: 10px;">
+                            <p style="text-align: center; border-radius: 10px 10px 0 0; font-size: 20px; padding: .75rem; background-color: #232B76;color: white;">Monday, 15 February 2020</p>
+                            <div style="background-color: rgb(255, 255, 255); padding-bottom: 1rem;">
+                                <p style="padding: 1rem;font-size: 18px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <hr class="mx-auto" style="border: 1px solid rgba(0,0,0,.1); width: 75%; display:block; margin-top: 1.5rem; margin-bottom: 1.5rem;"/>
+                                <p style="margin: 1rem; font-size: 18px; color: #009FE3; cursor: pointer;">Speaker Name</p>
+                                <div class="flex flex-row flex-nowrap justify-center items-center" style="gap: 10px;">
+                                    <button style="color: white; background-color:#009FE3; box-shadow: 0px 0px 20px #009FE345; border: none; padding: .5rem;border-radius: 29px;">REGISTER</button>
+                                    <button style="color: white; background-color: #042164; box-shadow: 0px 0px 20px #1490DF60; border: none; padding: .5rem;border-radius: 29px;">ADD TO CALENDAR</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mx-auto">
+            <div class="container">
+                <div class="flex flex-row flex-nowrap justify-between items-center" style="height:123px;">
+                    <div>
+                        <img src="./src/Group 1478.svg" alt="no image" style="width:207px; height:51px;">
+                    </div>
+                    <div>
+                        Footer Note
+                    </div>
+                </div>
+            </div>
+        </footer>
+         <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 4,
+                centeredSlides: true,
+                spaceBetween: 30,
+                grabCursor: true,
+            });
+            const clickedButton1 = () => {
+                const button1 = document.getElementById('button1');
+                const button2 = document.getElementById('button2');
+                button1.style.color = "#ffffff";
+                button1.style.backgroundColor=  "#232B76";
+                
+                button2.style.color = "#232B76";
+                button2.style.backgroundColor=  "#ffffff";
+            }
+            const clickedButton2 = () => {
+                const button1 = document.getElementById('button1');
+                const button2 = document.getElementById('button2');
+                button2.style.color = "#ffffff";
+                button2.style.backgroundColor=  "#232B76";
+                
+                button1.style.color = "#232B76";
+                button1.style.backgroundColor=  "#ffffff";
+            }
+        </script>
+</body>
+</html>
